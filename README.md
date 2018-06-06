@@ -21,3 +21,5 @@ list(y=y,x=x)
   shiny_glmnet(data)
 
 ```
+
+![](https://github.com/yonicd/shinyglmnet/blob/master/misc/shinyglmnet.gif?raw=true)
