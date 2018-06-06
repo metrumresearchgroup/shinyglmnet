@@ -17,8 +17,7 @@ library('shinyglmnet')
   shiny_glmnet()
 
 #your data
-list(y=y,x=x)
-  shiny_glmnet(data)
+  shiny_glmnet(data = list(y=y,x=x))
 
 ```
 
