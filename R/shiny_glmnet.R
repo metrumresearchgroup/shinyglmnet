@@ -191,11 +191,11 @@ server <- function(input, output, session) {
 
       t2 <- purrr::map_df(fit(),function(x) broom::tidy(x$glmnet.fit),.id = 'alpha')
 
-      t2$term <- gsub('\\(Intercept\\)','V0',t2$term)
-
-      t2$term <- as.numeric(gsub('V','',t2$term))
-
-      t2$term <- sprintf('V%02d',t2$term)
+      # t2$term <- gsub('\\(Intercept\\)','V0',t2$term)
+      #
+      # t2$term <- as.numeric(gsub('V','',t2$term))
+      #
+      # t2$term <- sprintf('V%02d',t2$term)
 
       t2$alpha <- factor(t2$alpha,labels = penalties()$alpha)
 
