@@ -31,7 +31,7 @@ server <- function(input, output, session) {
 
   if(is.null(data)){
     observeEvent(input$data,{
-      load(system.file(sprintf("data/%sExample.Rdata",input$data),package = 'glmnet'),envir = ENV)
+      load(system.file(sprintf("data/%sExample.RData",input$data),package = 'glmnet'),envir = ENV)
     })
   }else{
     ENV$x <- data$x
