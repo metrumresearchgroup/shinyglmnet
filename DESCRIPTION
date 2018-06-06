@@ -1,0 +1,16 @@
+Package: shinyglmnet
+Type: Package
+Title: Shiny Application for glmnet
+Version: 0.1.0
+Authors@R: c(
+    person("Jonathan", "Sidi", email = "yonicd@gmail.com", role = c("aut","cre"),
+           comment = c(ORCID = "0000-0002-4222-1819"))
+  )
+Maintainer: Jonathan Sidi <yonis@metrumrg.com>
+Description: Shiny 'UI' for interactive use of the 'glmnet' package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: shiny,shinyWidgets,purrr,glmnet,broom,jsonlite,dplyr,ggplot2,shinydashboard,shinyCanvas
+Remotes: metrumresearchgroup/shinyCanvas
+RoxygenNote: 6.0.1.9000
