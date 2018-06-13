@@ -5,7 +5,7 @@ Shiny application that runs `glmnet` and `cv.glmnet` and produces standard plots
 ## Installation
 
 ```r
-remotes::install_github('yoni/shinyglmnet',host = 'ghe.metrumrg.com/api/v3',auth_token = Sys.getenv('GHE_PAT'))
+remotes::install_github('metrumresearchgroup/shinyglmnet')
 ```
 
 ## Usage
@@ -21,4 +21,4 @@ library('shinyglmnet')
 
 ```
 
-![](https://ghe.metrumrg.com/yoni/shinyglmnet/blob/master/misc/shinyglmnet.gif?raw=true)
+![](https://ghe.metrumrg.com/metrumresearchgroup/shinyglmnet/blob/master/misc/shinyglmnet.gif?raw=true)
