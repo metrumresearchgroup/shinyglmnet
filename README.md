@@ -21,4 +21,4 @@ library('shinyglmnet')
 
 ```
 
-![](https://ghe.metrumrg.com/metrumresearchgroup/shinyglmnet/blob/master/misc/shinyglmnet.gif?raw=true)
+![](https://github.com/metrumresearchgroup/shinyglmnet/blob/master/misc/shinyglmnet.gif?raw=true)
