@@ -3,7 +3,7 @@ Type: Package
 Title: Shiny Application for glmnet
 Version: 0.1.0
 Authors@R: c(
-    person("Jonathan", "Sidi", email = "yonicd@gmail.com", role = c("aut","cre"),
+    person("Jonathan", "Sidi", email = "yonis@metrumrg.com", role = c("aut","cre"),
            comment = c(ORCID = "0000-0002-4222-1819"))
   )
 Maintainer: Jonathan Sidi <yonis@metrumrg.com>
